@@ -40,7 +40,14 @@
         <activity
             android:name=".Activities.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".Activities.homepage"></activity>
+        <activity android:name=".Activities.homepage" />
+        <activity
+            android:name=".Activities.Maps_start_stop"
+            android:label="@string/title_activity_maps_start_stop">
+            <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="@string/google_maps_key" />
+        </activity>
     </application>
 
 </manifest>

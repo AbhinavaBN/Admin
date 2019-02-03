@@ -4,4 +4,5 @@
     <string name="track_activity">Map</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_start_stop">Map</string>
 </resources>
