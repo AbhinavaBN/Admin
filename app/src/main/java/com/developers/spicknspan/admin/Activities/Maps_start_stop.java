@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.developers.spicknspan.admin.R;
 import com.google.android.gms.location.places.Place;
@@ -55,7 +56,7 @@ public class Maps_start_stop extends FragmentActivity implements OnMapReadyCallb
         super.onStart();
     }
 
-    EditText t;
+    TextView t;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
